@@ -1,0 +1,13 @@
+---
+title: "Diamondfile2"
+author: "HeJin"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
